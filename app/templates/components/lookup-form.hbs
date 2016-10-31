@@ -1,10 +1,12 @@
-<h1>Find Legislators by Zipcode</h1>
+<div id="lookup">
+  <h1>Find Legislators by Zipcode</h1>
 
-<form>
-  <div class="form-group">
-    <label for="zip">Zip</label>
-    {{input value=zip id="zip"}}
-  </div>
+  <form>
+    <div class="form-group">
+      <label for="zip">Zipcode:</label>
+      {{input value=zip id="zip"}}
+    </div>
 
-  <button class="btn btn-primary" {{action 'zipLookup'}}>Submit</button>
-</form>
+    <button class="btn btn-primary" {{action 'zipLookup'}}>Submit</button>
+  </form>
+</div>

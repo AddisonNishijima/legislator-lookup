@@ -3,3 +3,47 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#lookup {
+  margin-top: 300px;
+  border: solid 1px #A87C34;
+  background-color: #CFBD9E;
+  text-align: center;
+  padding: 100px;
+  opacity: 50%;
+}
+
+#results {
+  margin-top: 300px;
+  border: solid 1px #A87C34;
+  background-color: #CFBD9E;
+  text-align: center;
+  padding: 100px;
+  opacity: 50%;
+}
+
+h1 {
+  margin: 20px;
+  color: #F2EEE1;
+  text-align: center;
+  text-shadow: 3px 3px 5px #B6A16C;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 80px;
+}
+
+h3 {
+  color: #F2EEE1;
+  text-align: center;
+  text-shadow: 3px 3px 5px #B6A16C;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+
+label {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
